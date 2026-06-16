@@ -1,0 +1,26 @@
+# Data — never commit (TiVA EXGR_INT alone is 1.7 GB)
+data/raw/
+data/processed/
+*.parquet
+
+# Generated figures (keep tables, drop heavy images if desired)
+results/figures/*.png
+results/figures/*.html
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+tergm_adj/
+run_tergm.R
+
+# OS
+.DS_Store
+Thumbs.db
