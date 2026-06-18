@@ -1,9 +1,18 @@
-# Data — never commit (TiVA EXGR_INT alone is 1.7 GB)
-data/raw/
-data/processed/
+# Data — never commit full raw/processed datasets
+# TiVA EXGR_INT alone is 1.7 GB
+
+data/raw/*
+!data/raw/tiva/
+!data/raw/bls/
+!data/raw/tiva/.gitkeep
+!data/raw/bls/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
 *.parquet
 
-# Generated figures (keep tables, drop heavy images if desired)
+# Generated figures
 results/figures/*.png
 results/figures/*.html
 
