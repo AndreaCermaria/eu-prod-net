@@ -1,0 +1,7 @@
+Model,β_NCI,R² within,N,β_interaction
+"Model 1 ,  NCI only",30.568,0.006,1056,
+"Model 2 ,  Interaction (main)",30.706,0.073,1056,-17.463
+"Model 3 ,  HHI robustness",,0.023,1056,
+"Model 4 ,  Tightening only",355.685,-8.165,120,-233.705**
+"Model 5 ,  Extended 2023",206.997,-4.155,180,-123.906
+"Model 6 ,  No Baltic outliers",266.739,-4.954,116,-177.928**
