@@ -102,7 +102,7 @@ The production network insulates credit transmission during tightening. The mech
 ## Repository Structure
 
 ```
-production-network-monetary-transmission/
+eu-prod-net/
 ├── data/
 │   ├── raw/          # TiVA and BLS source files (not committed)
 │   └── processed/    # auto generated parquet cache (not committed)
@@ -119,10 +119,7 @@ production-network-monetary-transmission/
 ├── results/
 │   ├── figures/
 │   └── tables/                 # regression_results.csv, tergm_results.txt, etc.
-├── docs/
-│   └── SUMMARY.md              # standalone findings summary
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
